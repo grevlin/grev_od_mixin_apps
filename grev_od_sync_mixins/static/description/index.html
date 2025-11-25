@@ -1,0 +1,65 @@
+<section>
+  <h1>Sync Mixins</h1>
+  <p>
+    <b>Sync Mixins</b> is a lightweight but powerful technical module that provides
+    a set of reusable synchronization mixins used when building Odoo connectors and
+    third-party API integrations.
+  </p>
+</section>
+
+<section>
+  <h2>Key Features</h2>
+  <ul>
+    <li>Standardized synchronization base mixins</li>
+    <li>Tracking of sync timestamps, states, and external IDs</li>
+    <li>Helpers for push and pull synchronization flows</li>
+    <li>Safe retry & error recovery utilities</li>
+    <li>Support for building any Odoo ↔ External API connector</li>
+    <li>Clean, reusable, and extensible architecture</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Use Cases</h2>
+  <ul>
+    <li>Building custom Odoo connectors</li>
+    <li>Integrating Odoo with REST, SOAP, GraphQL, or custom APIs</li>
+    <li>Synchronizing orders, products, inventory, or accounting data</li>
+    <li>Providing shared logic across multiple integration modules</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Technical Overview</h2>
+  <p>
+    This module defines reusable mixins that can be inherited by any Odoo model to add
+    synchronization capabilities. The mixins include:
+  </p>
+  <ul>
+    <li><b>External ID Mapping Mixin</b> – track remote identifiers</li>
+    <li><b>Pull Mixin</b> – define logic for receiving external data</li>
+    <li><b>Push Mixin</b> – define logic for exporting data to external systems</li>
+    <li><b>Sync State Mixin</b> – timestamps, status, and logging</li>
+    <li><b>Error Handling Mixin</b> – retry and recovery helpers</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Compatibility</h2>
+  <ul>
+    <li>Odoo 16, 17, 18</li>
+    <li>Works with enterprise and community editions</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Installation</h2>
+  <p>No configuration required. Simply install and extend the mixins in your models.</p>
+</section>
+
+<section>
+  <h2>Support</h2>
+  <p>
+    For issues and feature requests, please visit the GitHub repository.
+  </p>
+</section>
