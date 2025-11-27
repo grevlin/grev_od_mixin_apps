@@ -1,6 +1,6 @@
 {
     'name': 'Sync Mixins',
-    'version': '19.0.0.1.0',
+    'version': '19.0.1.1.1',
     'description':  """
 Sync Mixins
 ============
@@ -19,6 +19,7 @@ It is designed to be used as a foundation for Odoo ↔ External System connector
     'summary': 'Reusable synchronization mixins for Odoo connectors and third-party integrations.',
     'author': 'Grevlin Global Corp,Tharcisse Mukundayi',
     'website': 'https://grevlin.com',
+    'maintainer': 'mukundayi@gmail.com',
     'license': 'LGPL-3',
     'category': 'Tools/hidden',
     'depends': [
