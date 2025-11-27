@@ -18,7 +18,7 @@ It is designed to be used as a foundation for Odoo ↔ External System connector
     """,
     'summary': 'Reusable synchronization mixins for Odoo connectors and third-party integrations.',
     'author': 'Grevlin Global Corp,Tharcisse Mukundayi',
-    'website': 'https://grevlin.com',
+    'website': 'https://github.com/grevlin/grev_od_mixin_apps',
     'maintainer': 'mukundayi@gmail.com',
     'license': 'LGPL-3',
     'category': 'Tools/hidden',
